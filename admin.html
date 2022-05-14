@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jy-admin</title>
+		<style>
+			*{
+				text-decoration: none;
+				margin:0px;
+				padding:0px;
+			}
+			
+			
+			@keyframes scale {
+			    0% {
+			        -webkit-mask-size: 100% 100%;
+	
+			    }
+			    60%,
+			    100% {
+					
+					-webkit-mask-size: 1000% 1000%;
+				}
+			}
+			
+			.jy-link {
+			    -webkit-mask: radial-gradient(circle at 0% 0%, #000, transparent 25%);
+			    animation: scale 7s infinite;
+				
+			}
+			
+			
+		
+			.container{
+				height: 610px;
+				width: 100%;
+				
+			}
+			.view{
+				width: 100%;
+				height: 100%;
+				background-image: url(image/v2-a676d5836045bce668c686d153ea5d7f_1440w.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.jy-link{
+				font-size: 50px;
+				font-weight: bold;
+				color: whitesmoke;
+				text-decoration: none;
+				text-shadow: 5px 5px 5px #000000;
+			}
+
+		</style>
+		
+	</head>
+	<body>
+	
+		<div class="container">
+			<div class="view">
+				<a href="http://124.221.226.98" class="a-link">
+					<span class="jy-link">博客 管理后台</span>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
